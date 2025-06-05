@@ -1,14 +1,55 @@
-# Svelte + Vite
+# PArte - Funeral Service Template Editor
 
-This template should help get you started developing with Svelte in Vite.
+A modern web application for creating and managing funeral service templates.
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+- User authentication and subscription management
+- Pre-designed funeral service templates
+- Interactive template editor
+- PDF generation and preview
+- Template history and management
 
-## Need an official Svelte framework?
+## Tech Stack
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+- Frontend: SvelteKit with Tailwind CSS
+- Database: PostgreSQL with Prisma
+- Authentication: JWT
+- PDF Generation: PDF.js
+
+## Getting Started
+
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Set up environment variables:
+   - Create a `.env` file
+   - Add your database connection string
+   - Add your JWT secret
+   - Add your Stripe API keys
+
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
+
+## Project Structure
+
+- `/src/routes` - Application routes
+- `/src/lib/components` - Reusable components
+- `/src/lib/utils` - Utility functions
+- `/src/lib/services` - API services
+- `/src/lib/types` - TypeScript types
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a pull request.
+
+## License
+
+MIT License - feel free to use this project as a starting point for your own funeral service template editor.
 
 ## Technical considerations
 
