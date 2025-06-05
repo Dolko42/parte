@@ -1,0 +1,27 @@
+{
+  "name": "parte",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@prisma/client": "^6.9.0",
+    "@sveltejs/adapter-auto": "^6.0.1",
+    "@sveltejs/vite-plugin-svelte": "^5.0.3",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.10",
+    "@tailwindcss/typography": "^0.5.16",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.4",
+    "svelte": "^5.28.1",
+    "tailwindcss": "^4.1.8",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@sveltejs/kit": "^2.21.2"
+  }
+}
